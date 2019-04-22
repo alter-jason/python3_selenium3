@@ -4,3 +4,9 @@ keywords_loc:
 submit_loc:
   type: 'id'
   value: 'su'
+login_loc:
+  type: 'text'
+  value: '登录'
+login_mo:
+  type: 'xpath'
+  value: '//*[@id="TANGRAM__PSP_10__footerULoginBtn"]'

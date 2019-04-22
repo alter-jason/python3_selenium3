@@ -30,11 +30,11 @@ class BaiduPage(BasePage):
     def title_python_known(self):
 	     return  self.driver.title
 
-    #   鼠标悬停在"更多产品"上
-    def ActionChains_more(self):
-        mouse = self.find_element(*self.more_loc)
-        ActionChains(self.driver).move_to_element(mouse).perform()
-
-    #   点击“全部产品”
-    def click_zhidao(self):
-        self.find_element(*self.zhidao_loc).click()
+    #点击登录
+    def click_login(self):
+        elets = self.find_element(*self.locator('login_loc'))
+        action = ActionChains(self.driver)
+        action.click(elets).perform()
+    #点击账号登录
+    def click_log_name(self):
+        self.find_element(*self.locator("login_mo")).click()
