@@ -1,0 +1,12 @@
+accoutn:
+ type: 'id'
+ value: 'account'
+pass_word:
+ type: 'id'
+ value: 'passwd'
+login_button:
+ type: 'id'
+ value: 'button'
+check_result:
+ type: 'id'
+ value: 'checkResult'
